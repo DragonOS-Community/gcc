@@ -1448,6 +1448,11 @@ AC_DEFUN([GLIBCXX_ENABLE_LIBSTDCXX_TIME], [
         ac_has_nanosleep=yes
         ac_has_sched_yield=yes
         ;;
+      dragonos*)
+        ac_has_clock_monotonic=no
+        ac_has_clock_realtime=no
+        ac_has_nanosleep=yes
+        ;;
       openbsd*)
         ac_has_clock_monotonic=yes
         ac_has_clock_realtime=yes

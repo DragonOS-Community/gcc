@@ -34,3 +34,5 @@
 
 #undef PID_TYPE
 #define PID_TYPE "long long int"
+
+#define USE_LD_AS_NEEDED 1

@@ -31571,6 +31571,10 @@ case "$target" in
   *-linux-musl*)
     gcc_cv_target_dl_iterate_phdr=yes
     ;;
+  *-dragonos*)
+    gcc_cv_target_dl_iterate_phdr=yes
+    ;;
+  
 esac
 
 if test x$gcc_cv_target_dl_iterate_phdr = xyes; then
